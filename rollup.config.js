@@ -45,7 +45,7 @@ export default [
           verbose: true,
           contentBase: ["dist", "public"],
           host: "localhost",
-          port: 8080,
+          port: 8080, // Change Port here
         }),
       !isProduction && livereload(),
       isProduction && terser.terser(),
